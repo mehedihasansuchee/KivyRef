@@ -14,16 +14,16 @@ class NestedBoxLayoutApp(App):
         inner_layout = BoxLayout(orientation='vertical')
 
         # Create buttons and add them to the inner layout
-        button1 = Button(text='Abro')
+        button1 = Button(text='Home')
         inner_layout.add_widget(button1)
 
-        button2 = Button(text='Button 2')
+        button2 = Button(text='Insert')
         inner_layout.add_widget(button2)
 
         # Add the inner layout to the outer layout
         outer_layout.add_widget(inner_layout)
     
-        button3 = Button(text='Button 3')
+        button3 = Button(text='Delete')
         outer_layout.add_widget(button3)
     
         return outer_layout
