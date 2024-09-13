@@ -41,4 +41,4 @@ class ColorMixerApp(App):
         self.color_label.text = f"Color (R: {color[0]:.2f}, G: {color[1]:.2f}, B: {color[2]:.2f})"
 
 if __name__ == '__main__':
-    ColorMixerApp().run()
+    ColorMixerApp().run(
